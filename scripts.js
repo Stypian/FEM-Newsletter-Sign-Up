@@ -24,13 +24,13 @@ onload = function() {
         }
  
 
-        //add error colors
+        //add error colors and message
         function addErrors() {    
             emailError.style.display = "block";
             inpt.setAttribute("style", "border-color: hsl(4, 100%, 67%); color: hsl(4, 100%, 67%); background-color: hsla(4, 100%, 67%, 0.2)");
         }
         
-        //remove error colors
+        //remove error colors and message
         function remErrors() {     
             emailError.style.display = "none";
             inpt.setAttribute("style", "border-color: hsla(231, 7%, 60%, 0.6); color: #000; background-color: #fff");
