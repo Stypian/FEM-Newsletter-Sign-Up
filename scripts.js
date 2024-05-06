@@ -9,13 +9,13 @@ onload = function() {
         const subThanksDesk = document.querySelector(".newsletter__submit--thanks");
         const subThanksMob = document.querySelector(".newsletter__submit--thanks-mobile");
         const emailError = document.querySelector(".newsletter__email-p--error");
-        const thanksButts = [subThanksDesk, subThanksMob];
+        const thanksButtons = [subThanksDesk, subThanksMob];
         const valid = /^([a-zA-Z0-9\.-]+)@([a-zA-Z0-9-]+).([a-z]{2,3})$/;
 
 
         //remove the thanks message and show normal screen
         for (let i = 0; i < thanksButts.length; i++) {    
-            thanksButts[i].addEventListener("click", function() {
+            thanksButtons[i].addEventListener("click", function() {
                 thanks.style.display = "none";
                 cont.style.display = "flex";
                 inpt.value = '';
