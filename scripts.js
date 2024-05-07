@@ -16,7 +16,7 @@ onload = function() {
 
         //remove the confirmation message and show normal screen
         for (let i = 0; i < thanksButtons.length; i++) {    
-            thanksButts[i].addEventListener("click", function() {
+            thanksButtons[i].addEventListener("click", function() {
                 thanks.style.display = "none";
                 cont.style.display = "flex";
                 inpt.value = '';
