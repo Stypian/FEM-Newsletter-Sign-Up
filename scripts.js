@@ -11,7 +11,7 @@ onload = function() {
         const emailError = document.querySelector(".newsletter__email-p--error");
         const thanksButtons = [subThanksDesk, subThanksMob];
         const emailSpan = document.querySelectorAll(".newsletter__thanks-span");
-        const valid = /^([a-zA-Z0-9\.\-\\_]+)@([a-zA-Z0-9-]+).([a-z]{2,3})$/;
+        const valid = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
 
         //remove the confirmation message and show normal screen
